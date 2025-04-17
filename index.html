@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="image-block">
+            <div class="logo-text">
+                <img src="images/odin-lined.png" alt="">
+                <h1>ODIN</h1>
+            </div>
+        </div>
+        <div class="content-block">
+            <div class="header">
+                <div class="upper-text">This is not a real online service! Lorem ipsum, 
+                    dolor sit amet consectetur adipisicing elit. Ipsa nobis tempora hic. Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                <div class="lower-text">You <i>know</i> you want to</div>
+            </div>
+            <div class="main">
+                <div class="form-text">
+                    Let's do this!
+                </div>
+                    <form action="#">
+                        <fieldset class="allfields">    
+                                <fieldset class="row1">            
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" id="first-name" name="first-name" required>
+                        
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email" required>
+
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password" required>
+                                </fieldset>
+                                <fieldset class="row2">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" name="last-name" id="last-name" required>
+
+                            <label for="phone-number">PHONE NUMBER</label>
+                            <input type="tel" name="phone-number" id="phone-number" required>
+
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input type="password" name="confirm-password" id="confirm-password" required>
+                            </fieldset>
+                        </fieldset>     
+        </div>
+            <div class="footer">
+                <button type="submit" class="create">Create Account</button>
+                <div class="footer-text">
+                    Already have an account? <a href="#">Log in</a>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
